@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simulación de Cielo</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <canvas id="animeCanvas"></canvas>
+    <div class="info info__light">
+        <div class="info__time"></div>
+        <div class="info__date"></div>
+        <div class="info__phrase"></div>
+    </div>
+    <form action="./js/leguage.js" class="form_language" method="post">
+        <select name="language" id="language">
+            <option value="es">ES</option>
+            <option value="en">EN</option>
+            <option value="it">IT</option>
+            <option value="pt">PT</option>
+        </select>
+        <button type="submit" class="form_language_btn">Cambiar</button>
+    </form>
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>
